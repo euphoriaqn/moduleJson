@@ -1,0 +1,1 @@
+{"cats":[{"entity":{"name":"111"}},{"entity":{"name":"2222222"}}],"dogs":[{"entity":{"happiness":"Middle","name":"Bobik"}}]}

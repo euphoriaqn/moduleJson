@@ -1,0 +1,1 @@
+{"fruits":[{"date":"10/07/2017","price":70,"shelfLife":5,"type":"Apple"},{"date":"10/07/2017","price":70,"shelfLife":5,"type":"Apple"},{"date":"10/07/2017","price":70,"shelfLife":5,"type":"Apple"}],"moneyBalance":300}
