@@ -142,10 +142,10 @@ public class TradeShop {
         String json = new Scanner(new File(pathToJsonFile)).useDelimiter("\\Z").next();
         Person person = JSON.parseObject(json, Person.class);
         for (Client value : person.clients) {
-            int countOfFr = countOfFruits(value.type);
-            if (countOfFr >= value.count) {
+            int countOfFr = countOfFruits(value.getType());
+            if (countOfFr >= value.getCount()) {
                 for (int i = 0; i < fruits.size(); i++) {
-                    if (fruits.get(i).getType() == value.type)
+                    if (fruits.get(i).getType() == value.getType())
                         moneyBalance+=fruits.get(i).getPrice();
                         fruits.remove(i);
                     }
